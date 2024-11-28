@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-info" href="#">Software </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#home"
+                id="home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tracks">Tracks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="m-auto fs-4 d-sm-none d-md-none d-lg-flex" id="icon">
+            <i class="fa-brands fa-facebook m-2"></i>
+            <i class="fa-brands fa-twitter m-2"></i>
+            <i class="fa-brands fa-instagram m-2" id="instagram"></i>
+          </div>
+          <div id="imgavatar">
+            <img
+              style="width: 50; height: 50px; display: block"
+              src="17ee935b-c63a-4374-8fc3-91b2559e02f2.jpg"
+              alt="Avatar"
+              class="rounded-5"
+            />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+    <header>
+      <div class="fs-2 text-center text-info">
+        <h1 class="m-5 fw-bold">Welcome</h1>
+        <p class="bg-body-tertiary p-2 rounded-1" id="title">
+          I'm Software Engineer
+        </p>
+        <button class="btn-group text-info bg-transparent border-info m-4 fs-3">
+          Hire Me
+        </button>
+      </div>
+    </header>
+    <!-- about -->
+    <section class="mt-5 mb-5">
+      <div id="about" class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>About Me</h2>
+            <hr />
+            <p class="text-black-50">
+              A software programmer (or software developer) is a professional
+              who designs, writes, tests, and maintains code that enables
+              applications and software to function. They work with different
+              programming languages, frameworks, and tools to build software
+              that meets specific user or business requirements. Software
+              programmers analyze problems, break down requirements, and create
+              algorithms and logical structures to solve these problems through
+              code.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="download1.jpeg"
+              alt="me"
+              class="img-fluid rounded-circle"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- tracks -->
+    <section>
+      <div id="tracks" class="container mt-5 mb-5">
+        <h2>Tracks</h2>
+        <hr />
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3 mb-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img
+                  style="width: 50; height: 50px; display: block"
+                  src="images.jpeg"
+                  alt="Avatar"
+                  class="rounded-5"
+                />
+                <h5 class="card-title">Backend</h5>
+                <p class="card-text text-black-50">
+                  A backend developer is responsible for the server side of web
+                  applications. They work with databases, APIs, and server logic
+                  to manage data and ensure smooth communication between the
+                  frontend and backend. Commonly used technologies include
+                  Node.js, Express, MongoDB, and SQL. Backend developers focus
+                  on creating secure, efficient .
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3 mb-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img
+                  style="width: 50; height: 50px; display: block"
+                  src="beautiful-woman-avatar-character-icon-free-vector1.jpg"
+                  alt="Avatar"
+                  class="rounded-5"
+                />
+                <h5 class="card-title"><frame></frame>Frontend</h5>
+                <p class="card-text text-black-50">
+                  A frontend developer builds the user-facing side of web
+                  applications, creating the layout, design, and interactive
+                  elements. They use HTML, CSS, and JavaScript frameworks (like
+                  React or Vue.js or Angular.js or Next) to create responsive,
+                  user-friendly interfaces. Frontend developers focus on
+                  delivering a seamless and visually appealing experience for
+                  users.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3 mb-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img
+                  style="width: 50; height: 50px; display: block"
+                  src="17ee935b-c63a-4374-8fc3-91b2559e02f2.jpg"
+                  alt="Avatar"
+                  class="rounded-5"
+                />
+                <h5 class="card-title">Full Stake</h5>
+                <p class="card-text text-black-50">
+                  Data science is a field that involves extracting insights and
+                  knowledge from data using statistical analysis, machine
+                  learning, and data visualization. Data scientists gather,
+                  clean, and analyze large datasets to identify patterns and
+                  trends, helping organizations make data-driven decisions.
+                  Tools commonly used in data science include Python, R, SQL,
+                  and machine learning libraries.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3 mb-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img
+                  style="width: 50; height: 50px; display: block"
+                  src="images.jpeg"
+                  alt="Avatar"
+                  class="rounded-5"
+                />
+                <h5 class="card-title">Artificial Intelligent</h5>
+                <p class="card-text text-black-50">
+                  Artificial Intelligence (AI) is a field of computer science
+                  focused on creating systems that can perform tasks requiring
+                  human intelligence. This includes machine learning, where
+                  algorithms learn from data to make predictions or decisions,
+                  and natural language processing, which enables computers to
+                  understand and generate human language.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3 mb-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img
+                  style="width: 50; height: 50px; display: block"
+                  src="beautiful-woman-avatar-character-icon-free-vector1.jpg"
+                  alt="Avatar"
+                  class="rounded-5"
+                />
+                <h5 class="card-title"><frame></frame> Data science</h5>
+                <p class="card-text text-black-50">
+                  Data science is a field that involves extracting insights and
+                  knowledge from data using statistical analysis, machine
+                  learning, and data visualization. Data scientists gather,
+                  clean, and analyze large datasets to identify patterns and
+                  trends, helping organizations make data-driven decisions.
+                  Tools commonly used in data science include Python, R, SQL,
+                  and machine learning libraries.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3 mb-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img
+                  style="width: 50; height: 50px; display: block"
+                  src="17ee935b-c63a-4374-8fc3-91b2559e02f2.jpg"
+                  alt="Avatar"
+                  class="rounded-5"
+                />
+                <h5 class="card-title">DevOps</h5>
+                <p class="card-text text-black-50">
+                  DevOps is a set of practices that combines software
+                  development (Dev) and IT operations (Ops) to improve
+                  collaboration and efficiency. It focuses on automating
+                  workflows, continuous integration/continuous deployment
+                  (CI/CD), and monitoring to deliver software quickly and
+                  reliably. DevOps engineers work with tools like Docker,
+                  Kubernetes.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Skills MEAN stack-->
+    <section>
+      <div class="container mt-5 mb-5" id="skills">
+        <h2 class="mb-4">Skills MEAN Stack</h2>
+        <hr />
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <img
+              src="HTML.png"
+              alt="HTML"
+              class="img-fluid"
+              style="height: 150px"
+            />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <img
+              src="CSS.png"
+              alt="CSS"
+              class="img-fluid"
+              style="height: 150px"
+            />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <img
+              src="JS.png"
+              alt="JavaScript"
+              class="img-fluid"
+              style="height: 150px"
+            />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <img
+              src="angular.png"
+              alt="Angular"
+              class="img-fluid"
+              style="height: 150px"
+            />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <img
+              src="mongo.png"
+              alt="MongoDB"
+              class="img-fluid"
+              style="height: 150px"
+            />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <img
+              src="nodejs.png"
+              alt="Node.js"
+              class="img-fluid"
+              style="height: 150px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact-->
+    <section>
+      <div class="container mt-5 mb-5" id="contact">
+        <h2>Contact</h2>
+        <hr class="mb-4" />
+        <div class="row">
+          <!-- Form Inputs -->
+          <div class="col-lg-6 col-md-12 mb-4">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="age" class="form-label">Age</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="age"
+                  placeholder="Enter your age"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+            </form>
+          </div>
+          <!-- Message Box and Button -->
+          <div class="col-lg-6 col-md-12 mb-4">
+            <div class="form-group mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="8"
+                placeholder="Type your message here"
+              ></textarea>
+            </div>
+            <button class="btn btn-primary w-100">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="container-fluid text-center">
+      <p>Copyright &copy; 2023 My Website. All rights reserved.</p>
+      <div class="m-auto fs-4" id="icon">
+        <i class="fa-brands fa-facebook m-2"></i>
+        <i class="fa-brands fa-twitter m-2"></i>
+        <i class="fa-brands fa-instagram m-2" id="instagram"></i>
+      </div>
+      <a href="#home" class="scrolltop"><i class="fa fa-arrow-up"></i></a>
+    </footer>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
